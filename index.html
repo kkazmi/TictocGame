@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+   
+    
+</head>
+<body>
+    <h1>Tic-Tac-Toe Game</h1>
+    <div class="game-container">
+        <div class="hide">
+            <p id="message">Winner is : </p>
+         <button id="newgame" class="newgame">New Game</button>
+        </div>
+        <div class="board">
+            <div class="row1" >
+                <button id="0" class="box cell0 " data-index="0"></button>
+                <button id="1" class="box cell1 " data-index="1"></button>
+                <button id="2" class="box cell2 " data-index="2"></button>
+            </div>
+            <div class="row2" >
+                <button id="3" class="box cell3 " data-index="3"></button>
+                <button id="4" class="box cell4 " data-index="4"></button>
+                <button id="5" class="box cell5 " data-index="5"></button>
+            </div>
+            <div class="row3" >
+                <button id="6" class="box cell6 " data-index="6"></button>
+                <button id="7" class="box cell7 " data-index="7"></button>
+                <button id="8" class="box cell8 " data-index="8"></button>
+            </div>
+        </div>  
+        <button id="reset" class="reset">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- winning pattern 
+012
+345
+678
+036
+147
+258
+048
+246 -->

@@ -1,0 +1,70 @@
+.row1 .row3 .row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: aqua ;
+        }
+        .game-container {
+            margin: 20px auto;
+            width: 300px;
+        }
+        .board {
+            display: flex;
+            flex-direction: column;
+        }
+        .row1, .row2, .row3 {
+            display: flex;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 34px;
+            cursor: pointer;
+            margin: 2px;
+                border-radius: 8px;
+                    box-shadow: 3px 3px 8px 0px;
+        }
+        .cell6,.cell7, .cell8{
+            border-bottom: none;
+        }
+             .cell0,.cell1, .cell2{
+            border-top: none;
+        }
+        .cell2, .cell5, .cell8 {
+            border-right: none;
+        }
+        .cell0, .cell3, .cell6 {
+            border-left: none;
+        }
+        .reset {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #e41919;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .newgame {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .hide {
+            display: none;
+        }
